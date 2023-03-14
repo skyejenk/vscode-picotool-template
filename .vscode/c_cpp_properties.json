@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Pico/pico-sdk/src/**",
+                "C:/Pico/pico-sdk/src/common/pico_stdlib/include/**",
+                "C:/Pico/pico-sdk/src/common/pico_base/include/pico/"
+
+            ],
+            "forcedInclude": ["C:/Pico/pico-sdk/src/common/pico_base/include/pico/types.h"],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.3 rel1/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
